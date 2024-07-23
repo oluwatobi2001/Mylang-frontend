@@ -1,0 +1,70 @@
+
+.langApp {
+  display: flex;
+  flex-direction: row;
+width: 100%;
+padding: 0;
+margin: 0;
+height: 100%;
+}
+.divider {
+   display: block;
+  height: 80vh;
+  width: 5px;
+  margin-left: 2px;
+  vertical-align: middle;
+  background-color: black;
+  margin: auto;
+  justify-self: center
+  
+}
+.langMain{
+  display: flex !important;
+}
+.textUploadDiv {
+  display: flex;
+  width: 45%;
+  padding-right: 10px;
+  margin: 0;
+  padding: 0;
+}
+.textResultDiv {
+  display: flex;
+  width: 45%;
+  padding-left: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .langApp {
+    display: flex;
+    flex-direction: column;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+ 
+  }
+  .divider {
+     display: none
+    
+  }
+  .langMain{
+    display: flex !important;
+  }
+  .textUploadDiv {
+    display: flex;
+    width: 80%;
+    padding-right: 10px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .textResultDiv {
+    padding-top: 20px;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  
+}
